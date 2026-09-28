@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "template_version": "7ffa5ebee0a6d05c86c7",
+  "page_size": 20,
+  "site_id": "47dd2f6623d995836862b730",
+  "owner": "udpnwkmrjse",
+  "repo": "page-0973c57d9d66abf6421db86b",
+  "title": "青云梯",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "0973c57d9d66abf6421db86b",
+      "a": "青云梯",
+      "b": "",
+      "entity": "青云梯",
+      "brand": "青云梯",
+      "separator": "",
+      "path": "index.html",
+      "hash": "a5c2f7935db54e2172589fbae49ab600b15f5dd305e763d8bd50e31ecad0c97f",
+      "content": {
+        "keyword1": "青云梯",
+        "keyword2": "",
+        "primary_entity": "青云梯",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "青云梯提供稳定VPN加速服务，高效节点优化，方便客户端下载。",
+          "AI_DESCRIPTION": "青云梯提供稳定VPN加速服务，高效节点优化，方便客户端下载。"
+        },
+        "_brand_page": {
+          "version": 1,
+          "body": "\n\n\n    \n    \n    \n    \n    \n    \n    \n    \n    <style>\n        :root {\n            --beige: #FAF6F0;\n            --forest-green: #2E8B57;\n            --dark-green: #1E5F3B;\n        }\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n        body {\n            font-family: 'Helvetica Neue', Arial, sans-serif;\n            background-color: var(--beige);\n            color: #333;\n            line-height: 1.6;\n            max-width: 1200px;\n            margin: 0 auto;\n        }\n        header {\n            background-color: #fff;\n            box-shadow: 0 2px 10px rgba(0,0,0,0.1);\n            position: sticky;\n            top: 0;\n            z-index: 10;\n        }\n        nav {\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n            padding: 1rem 2rem;\n        }\n        .logo {\n            font-size: 1.8rem;\n            font-weight: bold;\n            color: var(--forest-green);\n        }\n        .nav-links {\n            display: flex;\n            gap: 2rem;\n        }\n        .nav-links a {\n            text-decoration: none;\n            color: #333;\n            font-weight: 500;\n        }\n        .nav-links a:hover {\n            color: var(--forest-green);\n        }\n        main {\n            padding: 2rem;\n        }\n        h1 {\n            font-size: 2.5rem;\n            margin-bottom: 1rem;\n            color: var(--dark-green);\n        }\n        .section {\n            margin-bottom: 3rem;\n        }\n        .section h2 {\n            font-size: 1.8rem;\n            margin-bottom: 1.5rem;\n            color: var(--dark-green);\n            border-bottom: 2px solid var(--forest-green);\n            padding-bottom: 0.5rem;\n        }\n        .content {\n            display: grid;\n            grid-template-columns: 1fr 1fr;\n            gap: 2rem;\n        }\n        @media (max-width: 768px) {\n            .content {\n                grid-template-columns: 1fr;\n            }\n        }\n        .content p {\n            margin-bottom: 1rem;\n        }\n        .intro, .plans, .faq, .operation, .download {\n            background-color: #fff;\n            padding: 2rem;\n            border-radius: 8px;\n            box-shadow: 0 4px 15px rgba(0,0,0,0.05);\n        }\n        .plans {\n            margin-bottom: 2rem;\n        }\n        details {\n            margin-bottom: 1rem;\n            border: 1px solid #ddd;\n            border-radius: 4px;\n        }\n        summary {\n            padding: 1rem;\n            font-weight: bold;\n            cursor: pointer;\n            background-color: #f9f5f0;\n        }\n        details[open] summary {\n            background-color: #f0e9e0;\n        }\n        .answer {\n            padding: 1rem;\n            background-color: #f9f5f0;\n        }\n        footer {\n            text-align: center;\n            padding: 2rem;\n            background-color: #fff;\n            color: #666;\n        }\n    </style>\n\n\n    <header>\n        <nav>\n            <div class=\"logo\">青云梯</div>\n            <div class=\"nav-links\">\n                <a href=\"#intro\">品牌简介</a>\n                <a href=\"#scenarios\">使用场景</a>\n                <a href=\"#plans\">套餐对比</a>\n                <a href=\"#faq\">常见问题</a>\n            </div>\n        </nav>\n    </header>\n    <main>\n        <h1>青云梯</h1>\n        <div id=\"intro\" class=\"section intro\">\n            <h2>品牌简介</h2>\n            <p>青云梯是一个专注于提供网络加速服务的品牌。通过优化网络节点，为用户带来高效稳定的连接体验。</p>\n            <p>我们致力于帮助用户突破网络限制，享受流畅的互联网服务。</p>\n        </div>\n        <div id=\"scenarios\" class=\"section\">\n            <h2>使用场景</h2>\n            <div class=\"content\">\n                <p>青云梯适用于多种场景，包括海外网站访问、视频加速观看、在线游戏加速以及数据下载等。</p>\n                <p>无论您是个人用户还是企业团队，都能找到适合自己的加速方案。</p>\n            </div>\n        </div>\n        <div id=\"plans\" class=\"section plans\">\n            <h2>套餐对比</h2>\n            <div>{{PLANS_HTML}}</div>\n        </div>\n        <div id=\"operation\" class=\"section operation\">\n            <h2>操作说明</h2>\n            <ol>\n                <li>访问青云梯官网，查看套餐详情。</li>\n                <li>选择适合您的套餐并完成支付。</li>\n                <li>下载对应客户端。</li>\n                <li>安装客户端并登录账号。</li>\n                <li>选择可用节点进行连接。</li>\n            </ol>\n        </div>\n        <div id=\"download\" class=\"section download\">\n            <h2>客户端下载</h2>\n            <div>{{CLIENTS_HTML}}</div>\n        </div>\n        <div id=\"faq\" class=\"section faq\">\n            <h2>常见问题</h2>\n            <details>\n                <summary>什么是青云梯？</summary>\n                <div class=\"answer\">青云梯是一个专注于网络加速的VPN服务品牌，提供稳定高效的连接方案。</div>\n            </details>\n            <details>\n                <summary>如何选择套餐？</summary>\n                <div class=\"answer\">请根据您的需求和预算选择不同套餐，套餐对比在页面上方查看。</div>\n            </details>\n            <details>\n                <summary>支持哪些设备？</summary>\n                <div class=\"answer\">青云梯支持Windows、macOS、Android、iOS等主流操作系统。</div>\n            </details>\n            <details>\n                <summary>如何更新客户端？</summary>\n                <div class=\"answer\">访问官网下载最新版本的客户端。</div>\n            </details>\n            <details>\n                <summary>客服支持如何？</summary>\n                <div class=\"answer\">我们提供在线客服服务，欢迎随时咨询。</div>\n            </details>\n        </div>\n    </main>\n    <footer>\n        <p>© 2024 青云梯 版权所有 | <a href=\"#faq\">常见问题</a></p>\n    </footer>\n\n",
+          "hash": "1398fa670d0b1e9864ae8f31f4e8f72e5da67428eb0e4681ccc46b8a6c2ec8ce",
+          "seo": {
+            "title": "青云梯 - 稳定VPN加速器",
+            "keywords": "青云梯, VPN加速器, 青云梯客户端, 青云梯下载, 网络加速",
+            "description": "青云梯提供稳定VPN加速服务，高效节点优化，方便客户端下载。"
+          },
+          "provider": "grok"
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "wbfltmt.cn",
+    "host": "zh.wbfltmt.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804"
+  },
+  "friendlinks": [
+    {
+      "host": "wbfltmt.cn",
+      "url": "https://wbfltmt.cn/",
+      "label": "X",
+      "apex": "wbfltmt.cn",
+      "kind": null,
+      "identity": "bbkjuewxsr/page-94568993d4eb3712ff9c43f4"
+    },
+    {
+      "host": "00ah6.cn",
+      "url": "https://00ah6.cn/",
+      "label": "SSHUB",
+      "apex": "00ah6.cn",
+      "kind": null,
+      "identity": "erjwrgjj/page-6141714b7a0f264666643c94"
+    },
+    {
+      "host": "01kmph.cn",
+      "url": "https://01kmph.cn/",
+      "label": "WeGo",
+      "apex": "01kmph.cn",
+      "kind": null,
+      "identity": "wbwftxwku/page-680ee6fa2562d6d22ba5a121"
+    }
+  ],
+  "file_hashes": {
+    "index.html": "aca46215dd9fd032dab209d095b011c1da75273275be6b46d78f47160a56d462",
+    "sitemap.xml": "9815dc1fad870b1778e8c03d7966baf4cc4b827916c1e2ee633a371c5394b22f",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "efb828e9e3af0194d11245773081a7779c56c6877bd962d71ad97b0ebe27b00d",
+    "robots.txt": "18792cf3cb1b252b3114d436f474388237081b7a59584ee66ba0132291720139",
+    "0540cc30946a0c8a29abd1fa6d42dc6d.txt": "fa130222898cc2e63bfa4eba02ed49561283ed6cc9315f4caef24a3861fe3096"
+  },
+  "revision": "188ea1ea65862e1e28845ef754ad2df8b436ff2ba0fb8f56c0edd569637083c5"
+}
